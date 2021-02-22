@@ -1,29 +1,75 @@
-
-<!DOCTYPE html>
 <html>
     <head>
-        <style  ></style> 
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css_general.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <title>Welcome to GPA Web</title>
+        <style>
+            body {
+              margin: 0;
+              background-color: rgb(220, 223, 227);
+            }
+            .container {
+              text-align: center;
+              padding: 20px;
+            }
+            .sub-container{
+              width: 400px;
+              box-shadow: 0 0 5px 6px rgba(200, 203, 207, 1);
+              margin: 40px auto; padding: 20px;
+              background-color: white;
+            }
+            .heading {
+              font-size: 30px;
+              font-family: 'Pacifico', cursive;
+              margin-bottom: 40px;
+            }
+            .note{
+              background-color: rgba(111, 164, 237, 0.5);
+              padding: 10px 5px;
+              color: rgb(30, 115, 232);
+              font-weight: bolder;
+              text-align: left;
+              font-family: serif;
+              border-left: 3px solid blue;
+            }
+            .red {
+              color: rgb(30, 115, 232);
+            }
+            a {
+              font-family: 'Poppins', sans-serif;
+              text-decoration: none;
+              display: inline-block;
+              margin: 0 auto 30px;
+              width: 49%;
+              padding: 10px 7px;
+              font-size: 20px;
+            }
+            a:hover {
+              cursor: pointer;
+            }
+            .login-teacher {
+              color: white;
+              background-color: rgb(152, 64, 219);
+            }
+            .login-student {
+              color: white;
+              background-color: rgb(110, 224, 61);
+            }
+        </style>
     </head>
-    <body>
-        <Center><h2>Welcome Fellows</h2></Center>
-        <div class="Buttons">
-           <button type="button" class="btn btn-primary" style="background-color:aquamarine;"><a href="Students/student_home.html">Student's Login</a></button><br>   
-            <button type="button" class="btn btn-primary" style="background-color:aquamarine;"><a href="Teachers/teachers_home.html">Teacher's Login</a></button><br>
-            
-        </div>
-
-
-
-
-
-    </body>
+<body>
+  <div class="container">
+    <div class="sub-container">
+      <Center>
+        <h2 class="heading">Welcome Fellows</h2>
+      </Center>
+      <p class="note"><span class="red">NOTE: </span> There are two options shown below for login as student and teacher. Choose the correct one that applies for you. </p><br>
+      <a href="" class="login-student">
+        Login as Student
+      </a>
+      <br>
+      <a href="#" class="login-teacher">
+        Login as Teacher
+      </a>
+    </div>
+  </div>
+</body>
 </html>
-
