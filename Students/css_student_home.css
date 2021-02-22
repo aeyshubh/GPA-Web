@@ -1,0 +1,11 @@
+.Buttons{
+    margin:10px;
+    display: inline-block;
+    align-content: center;
+    padding-left: 30px;
+    
+}
+.btn{
+    font-size: 20px;
+    margin-top: 30px;
+}
