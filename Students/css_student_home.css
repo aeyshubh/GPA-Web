@@ -9,3 +9,28 @@
     font-size: 20px;
     margin-top: 30px;
 }
+
+.fees_body{
+    background-color: #b0b9a5;
+}
+.text-1,.paybtn{
+            border-radius: 5px;
+              padding: 10px 5px;
+              color: rgb(76, 76, 87);
+              font-weight: bolder;
+              text-align: left;
+              font-family: serif;
+              border: 3px solid rgb(76, 76, 87);
+              font-family: 'Poppins', sans-serif;
+              text-decoration: none;
+              display: inline-block;
+              margin: 0 auto 30px;
+              width: 49%;
+              padding: 10px 7px;
+              font-size: 20px;
+}
+.paybtn{
+    padding-left: 100px;
+    margin-left: 1070px;
+    width: 30%;
+}
