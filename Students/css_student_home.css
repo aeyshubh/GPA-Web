@@ -1,8 +1,8 @@
 .Buttons{
-    margin:10px;
+    margin:20%;
     display: inline-block;
     align-content: center;
-    padding-left: 30px;
+    padding-left: 30%;
     
 }
 .btn{
@@ -11,26 +11,32 @@
 }
 
 .fees_body{
-    background-color: #b0b9a5;
+    background-color: rgb(177, 169, 169);
 }
 .text-1,.paybtn{
             border-radius: 5px;
-              padding: 10px 5px;
+              padding: 3% 3%;
               color: rgb(76, 76, 87);
               font-weight: bolder;
+              background-color: honeydew;
               text-align: left;
               font-family: serif;
               border: 3px solid rgb(76, 76, 87);
-              font-family: 'Poppins', sans-serif;
+              font-family: 'Poppins', sans-1erif;
               text-decoration: none;
               display: inline-block;
-              margin: 0 auto 30px;
+              margin: 0 auto 1%;
               width: 49%;
-              padding: 10px 7px;
               font-size: 20px;
 }
 .paybtn{
-    padding-left: 100px;
-    margin-left: 1070px;
+    padding-left: 3%;
+    margin-left: 3%;
     width: 30%;
+}
+#fp{
+    background-color: honeydew;
+    font-size: 100px;
+    display: inline;
+    align-items: center;
 }
